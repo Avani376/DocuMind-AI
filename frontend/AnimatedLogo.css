@@ -1,0 +1,77 @@
+.dm-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  padding: 8px 12px 14px;
+}
+
+.dm-logo .orb-large {
+  width: 210px;
+  height: 190px;
+  filter: drop-shadow(0 12px 28px rgb(37 215 211 / 15%));
+}
+
+.dm-brand {
+  min-width: 0;
+  text-align: center;
+}
+
+.dm-wordmark {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: Manrope, system-ui, sans-serif;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 800;
+  letter-spacing: -2.2px;
+  line-height: 1.1;
+}
+
+.dm-word-docu {
+  color: #eef5ff;
+}
+
+.dm-word-mind {
+  color: #58e1d1;
+  background: linear-gradient(100deg, #52d8df, #77a7ff 65%, #a995ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dm-word-ai {
+  margin-left: 7px;
+  color: #aab7ca;
+  font-size: 0.56em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.dm-tagline {
+  margin: 8px 0 0;
+  color: #9baec4;
+  font-size: 12px;
+  letter-spacing: 0.35px;
+  line-height: 1.6;
+}
+
+@media (max-width: 540px) {
+  .dm-logo .orb-large {
+    width: 190px;
+    height: 170px;
+  }
+
+  .dm-wordmark {
+    font-size: clamp(30px, 8vw, 40px);
+    letter-spacing: -1.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dm-logo * {
+    animation-duration: 0.01ms !important;
+  }
+}

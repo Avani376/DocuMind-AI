@@ -1,0 +1,211 @@
+:root {
+  color-scheme: dark;
+  --page-bg: #05080d;
+  --panel-bg: #0a111a;
+  --card-bg: #0e1824;
+  --primary-text: #f3f8fc;
+  --secondary-text: #91a4b8;
+  --border-color: #1c2a38;
+  --accent-color: #00f5ff;
+  --field-bg: #05080d;
+  --field-border: #1c3440;
+  --good-color: #8cbf14;
+  --bg: var(--page-bg);
+  --panel: var(--panel-bg);
+  --card: var(--card-bg);
+  --text: var(--primary-text);
+  --muted: var(--secondary-text);
+  --line: var(--border-color);
+  --cyan: var(--accent-color);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --page-bg: #f4f8fb;
+  --panel-bg: #ffffff;
+  --card-bg: #edf4f8;
+  --primary-text: #12202c;
+  --secondary-text: #607386;
+  --border-color: #d9e4eb;
+  --accent-color: #008d9a;
+  --field-bg: #ffffff;
+  --field-border: #c7d8e1;
+  --good-color: #4c7900;
+}
+
+body,
+.boot,
+.auth-screen,
+.splash {
+  background: var(--page-bg);
+  color: var(--primary-text);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 9px;
+  padding: 9px 11px;
+  background: var(--panel-bg);
+  color: var(--primary-text);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-color);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 3px;
+}
+
+.welcome-theme-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+}
+
+.auth-screen .welcome-theme-toggle {
+  top: 20px;
+  right: 20px;
+}
+
+.welcome {
+  position: relative;
+}
+
+.brand-logo-mark {
+  display: block;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  color: var(--accent-color);
+  filter: drop-shadow(0 0 8px color-mix(in srgb, var(--accent-color) 28%, transparent));
+}
+
+[data-theme='light'] .dm-word-docu {
+  color: var(--primary-text);
+  -webkit-text-fill-color: currentColor;
+}
+
+[data-theme='light'] .dm-word-ai {
+  color: var(--secondary-text);
+}
+
+[data-theme='light'] .dm-tagline {
+  color: var(--secondary-text);
+}
+
+.upload-status {
+  margin: 0 0 12px;
+  padding: 11px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--card-bg);
+  color: var(--primary-text);
+  font-size: 11px;
+}
+
+.upload-status-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.upload-status-heading strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.upload-status-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.upload-status p {
+  margin: 8px 0 0;
+  color: var(--secondary-text);
+}
+
+.upload-status progress {
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin-top: 9px;
+  accent-color: var(--accent-color);
+}
+
+.upload-status-error {
+  color: #c93c3c !important;
+}
+
+.upload-retry {
+  margin-top: 9px;
+  border: 0;
+  background: none;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.upload-retry:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.upload-zone:disabled,
+.attach:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+[data-theme='light'] .auth-card {
+  border-color: var(--border-color);
+  background: #ffffffed;
+  box-shadow: 0 20px 90px #008d9a14;
+}
+
+[data-theme='light'] .auth-card input {
+  border-color: var(--field-border);
+  background: var(--field-bg);
+  color: var(--primary-text);
+}
+
+[data-theme='light'] .auth-card .switch {
+  color: var(--secondary-text);
+}
+
+[data-theme='light'] .auth-card .switch button,
+[data-theme='light'] .auth-card h1 em {
+  color: var(--accent-color);
+}
+
+[data-theme='light'] .auth-foot {
+  color: var(--secondary-text);
+}
+
+[data-theme='light'] .doc-info .status-ready {
+  color: var(--good-color);
+}
+
+[data-theme='light'] .doc-info .status-other {
+  color: #a34413;
+}
+
+[data-theme='light'] .message.user .message-avatar {
+  background: #8cbf1418;
+  color: var(--good-color);
+}
+
+[data-theme='light'] .error-banner {
+  border-color: #bd3f3f55;
+  background: #bd3f3f0d;
+  color: #982a2a;
+}

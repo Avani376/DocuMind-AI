@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+.env
+backend/documind.db
+backend/uploads/
+backend/vector_indexes/
+.pytest_cache/
+
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Python environments and cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local databases and uploaded documents
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/
+backend/vector_indexes/
+
+# TypeScript build cache
+*.tsbuildinfo

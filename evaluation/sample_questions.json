@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "When did the Aurora pilot launch?"
+  },
+  {
+    "id": 2,
+    "question": "Where did the pilot take place?"
+  },
+  {
+    "id": 3,
+    "question": "How many registered participants were served in the first month?"
+  },
+  {
+    "id": 4,
+    "question": "Who was the project coordinator?"
+  },
+  {
+    "id": 5,
+    "question": "How was participant feedback collected?"
+  },
+  {
+    "id": 6,
+    "question": "What was the planned equipment budget?"
+  },
+  {
+    "id": 7,
+    "question": "What was the actual equipment spend?"
+  },
+  {
+    "id": 8,
+    "question": "How much was planned for training?"
+  },
+  {
+    "id": 9,
+    "question": "How much was actually spent on training?"
+  },
+  {
+    "id": 10,
+    "question": "What was the planned outreach amount?"
+  },
+  {
+    "id": 11,
+    "question": "What was the actual outreach spend?"
+  },
+  {
+    "id": 12,
+    "question": "What was the total planned budget?"
+  },
+  {
+    "id": 13,
+    "question": "What was the total actual spend?"
+  },
+  {
+    "id": 14,
+    "question": "By how much did actual outreach exceed its planned amount?"
+  },
+  {
+    "id": 15,
+    "question": "What is the next review meeting date?"
+  },
+  {
+    "id": 16,
+    "question": "Name two recommended next steps."
+  },
+  {
+    "id": 17,
+    "question": "Compare the planned and actual totals and state the difference."
+  },
+  {
+    "id": 18,
+    "question": "Which section contains the budget table?"
+  },
+  {
+    "id": 19,
+    "question": "What were the pilot's carbon savings?"
+  },
+  {
+    "id": 20,
+    "question": "Who attended the next review meeting and what was decided?"
+  }
+]

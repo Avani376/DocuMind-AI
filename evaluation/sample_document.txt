@@ -1,0 +1,14 @@
+DOCUMIND SAMPLE ORGANIZATION REPORT
+
+SECTION 1 — LAUNCH FACTS
+The Aurora pilot launched on 14 March 2025 in Coimbatore. The pilot served 240 registered participants during its first month. The project coordinator was Mira Raman. The team collected feedback through weekly interviews and an online form.
+
+SECTION 2 — BUDGET TABLE
+Category | Planned amount (INR) | Actual amount (INR)
+Equipment | 50000 | 47500
+Training | 18000 | 16000
+Outreach | 12000 | 13500
+Total | 80000 | 77000
+
+SECTION 3 — POLICY AND NEXT STEPS
+The next review meeting is scheduled for 2 June 2025. The report recommends improving participant onboarding and publishing a monthly progress summary. The report does not state the pilot's carbon savings, the names of all participants, or the outcome of the next review meeting.

@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "question": "When did the Aurora pilot launch?",
+    "expected_answer_points": "14 March 2025",
+    "expected_source_sections": [
+      "SECTION 1"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Where did the pilot take place?",
+    "expected_answer_points": "Coimbatore",
+    "expected_source_sections": [
+      "SECTION 1"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How many registered participants were served in the first month?",
+    "expected_answer_points": "240 participants",
+    "expected_source_sections": [
+      "SECTION 1"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Who was the project coordinator?",
+    "expected_answer_points": "Mira Raman",
+    "expected_source_sections": [
+      "SECTION 1"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How was participant feedback collected?",
+    "expected_answer_points": "Weekly interviews and an online form",
+    "expected_source_sections": [
+      "SECTION 1"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What was the planned equipment budget?",
+    "expected_answer_points": "INR 50,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What was the actual equipment spend?",
+    "expected_answer_points": "INR 47,500",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How much was planned for training?",
+    "expected_answer_points": "INR 18,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How much was actually spent on training?",
+    "expected_answer_points": "INR 16,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What was the planned outreach amount?",
+    "expected_answer_points": "INR 12,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What was the actual outreach spend?",
+    "expected_answer_points": "INR 13,500",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What was the total planned budget?",
+    "expected_answer_points": "INR 80,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What was the total actual spend?",
+    "expected_answer_points": "INR 77,000",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "By how much did actual outreach exceed its planned amount?",
+    "expected_answer_points": "INR 1,500",
+    "expected_source_sections": [
+      "SECTION 2"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the next review meeting date?",
+    "expected_answer_points": "2 June 2025",
+    "expected_source_sections": [
+      "SECTION 3"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Name two recommended next steps.",
+    "expected_answer_points": "Improve onboarding; publish monthly progress summary",
+    "expected_source_sections": [
+      "SECTION 3"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Compare the planned and actual totals and state the difference.",
+    "expected_answer_points": "Actual is INR 3,000 below planned",
+    "expected_source_sections": [
+      "SECTION 2",
+      "SECTION 3"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Which section contains the budget table?",
+    "expected_answer_points": "Section 2 \u2014 Budget Table",
+    "expected_source_sections": [
+      "SECTION 2",
+      "SECTION 3"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What were the pilot's carbon savings?",
+    "expected_answer_points": "Not stated; abstain",
+    "expected_source_sections": [
+      "SECTION 3"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Who attended the next review meeting and what was decided?",
+    "expected_answer_points": "Not stated; abstain",
+    "expected_source_sections": [
+      "SECTION 3"
+    ]
+  }
+]
